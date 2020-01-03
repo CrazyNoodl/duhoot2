@@ -1,0 +1,17 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $background-color;
+  @include main-font;
+  font-size: $main-size;
+  font-weight: $main-weight;
+  line-height: $main-height;
+  color: $main-color;
+}
+
+.copyright {
+  font-weight: 400;
+}

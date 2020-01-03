@@ -1,0 +1,35 @@
+.intro {
+  background: #043137 url(../images/bg.png) center no-repeat;
+  background-size: cover;
+  padding: 60px 0 40px;
+  min-height: 380px;
+  text-align: center;
+  position: relative;
+  color: $light-color;
+
+  &__title {
+    font-size: 30px;
+    margin-bottom: 18px;
+  }
+
+  &__selects {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+  }
+
+  &__select {
+    width: 48%;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .7);
+    z-index: 1;
+  }
+}
